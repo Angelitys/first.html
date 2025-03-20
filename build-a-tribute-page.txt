@@ -1,0 +1,95 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Tributo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Ariel Guareschi</h1>
+        
+        <figure id="img-div">
+            <img id="image" src="https://media.licdn.com/dms/image/v2/C4D03AQFGg8eSTFD01Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1546562217284?e=2147483647&v=beta&t=aRlL9yO-wg979Ouo2JypHci1XD4xrxNBRqcEEzjaeeQ" alt="Imagem da pessoa homenageada">
+            <figcaption id="img-caption">Descrição da imagem da pessoa homenageada.</figcaption>
+        </figure>
+
+        <section id="tribute-info">
+            <p>Possui graduação em Sistemas de Informação pela Universidade do Oeste de Santa Catarina (2009). Atualmente é professor da Faculdade de Ampére, professor da União de Ensino do Sudoeste do Paraná, professor do Centro Universitário Unisep e programador - AERO Sistemas. Tem experiência na área de Ciência da Computação, com ênfase em SISTEMAS DE INFORMAÇÃO, atuando principalmente nos seguintes temas: android, aeromob e java.</p>
+        </section>
+
+        <a id="tribute-link" href="https://br.linkedin.com/in/arielguareschi" target="_blank">Saiba mais sobre essa pessoa</a>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+#img-div {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#img-caption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+#tribute-info {
+    text-align: justify;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#tribute-link:hover {
+    text-decoration: underline;
+}
+
+
+** end of undefined **
+
